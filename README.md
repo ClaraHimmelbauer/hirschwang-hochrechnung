@@ -3,7 +3,7 @@ Liebe WIPOLIs und alle anderen,
 dieses Repo enthält alle Files, die wir brauchen, um eine Hochrechnung für die Nationalratswahl 2024 zu rechnen.
 Außerdem alle Codes, die ich zur Vorbereitung der Daten und für weitere Erklärungen verwendet habe.
 
-#### Plan
+### Plan
 
 Um eine Hochrechnung zu rechnen schauen wir uns an
 - Lineare Funktionen
@@ -16,11 +16,11 @@ Und wenn wir danach noch Zeit haben zeige ich euch
 - Wie man die Schwankungsbreite mittels Bootstrapping rechnet
 - Wie man Hochrechnungen durch Clusteirng exakter macht
 
-#### Kontakt
+### Kontakt
 
 Wenn du eine Frage hast schreib mir auf: clara.himmelbauer@wu.ac.at
 
-#### Ordnerstruktur
+### Ordnerstruktur
 
 - analysis: alles wo gerechnet wird
 - data: Roh- und Enddaten
