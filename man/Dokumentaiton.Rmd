@@ -14,7 +14,23 @@ Dieses File dokumentiert die Arbeitsschritte der Datenaufbereitung.
 
 ## Wahldaten und deren Aufbereitung
 
-Die Gemeindeergebnisse von der BMI-Seite herunterladen
+### Die Gemeindeergebnisse von der BMI-Seite herunterladen
+
 - NRW 2024: https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2024/start.aspx
 - NRW 2019: https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2019/start.aspx 
 
+### Gemeindedaten aufbereiten
+
+#### Daten 2024: `data/prep_nrw24.xlsx`
+- Absolute Stimmen pro Gemeinde
+- Sonstige Zusammenfassen: so = bier + mfg + bge + lmp + gaza + kp + keine
+- Dasselbe mit Bezirken und Wahlkarten, man weiß nie für was wir das noch brauchen könnten!
+
+#### Daten 2019: `data/prep_nrw19.xlsx`
+- Auf Gebietsstand 2024 bringen: `man/aenderungen_gemeindenummern.xlsx`
+    - 62347 Murfeld: Gemeindeteilunga auf 61060 Sankt Veit in der Südsteiermark und 61061 Straß in der Steiermark. Weil Murfeld sehr klein ist und ich nicht genau weiß wie die Gemeinde geteilt wurde (ca 17% - 83% glaub ich), wird das ignoriert
+    - 61060 Sankt Veit in der Südsteiermark - GKZ geändert von 61056
+    - 61061 Straß in Steiermark - GKZ geändert von 61058
+    - 70370 Matrei am Brenner - Zusammenlegung von 70327 Matrei am Brenner, 70330 Mühlbachl, 70341 Pfons
+- Absolute Stimmen pro Gemeinde (Gebietsstand 2024), Bezirk, Wahlkarten
+- Sonstige Zusammenfassen
