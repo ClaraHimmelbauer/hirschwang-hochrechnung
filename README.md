@@ -29,3 +29,4 @@ Wenn du eine Frage hast schreib mir auf: clara.himmelbauer@wu.ac.at
 - man: "man" steht für "manuals". Hier sind alle Anleitungen etc.
 - plots: Output-Plots, falls wir welche haben
 - R: R-Fuktionen (eher für mich zum Herzeigen)
+- report: alle Präsentationen etc.

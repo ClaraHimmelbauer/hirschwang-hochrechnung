@@ -35,3 +35,9 @@ Dieses File dokumentiert die Arbeitsschritte der Datenaufbereitung.
 - Absolute Stimmen pro Gemeinde (Gebietsstand 2024), Bezirk, Wahlkarten
 - Sonstige Zusammenfassen: so = jetzt + kpö ü wandl + bzö + bier + cpö + gilt + slp
 
+#### Beispieldaten Erstellen
+An einem Wahltag um 17:00 schließen die Wahllokale und die Bundeswahlbehörde (oder Gemeindewahlbehörde) veröffentlicht die Ergebnisse der schon ausgezhälten Gemeinden/Sprengel. Das sind vor allem sehr kleine Gemeinden mit wenigen Wahlberechtigten. Deswegen erstelle ich einen Mock-Datensatz in dem
+- Nur 300 Gemeinden ausgezahlt sind, das sind in etwa 14% aller österreichischen Gemeinden
+- Alle diese Gemeinden sind sehr klein und haben weniger als 2.000 Wahlberechtigte
+Die Berechnung passiert in `analysis/prep_import.R` und das Ergebnis ist `data/in_results-filtered.csv`. 
+
