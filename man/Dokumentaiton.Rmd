@@ -1,0 +1,20 @@
+---
+title: "Dokumentation"
+author: "Clara Himmelbauer"
+date: "2025-01-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dieses File dokumentiert die Arbeitsschritte der Datenaufbereitung.
+
+
+## Wahldaten und deren Aufbereitung
+
+Die Gemeindeergebnisse von der BMI-Seite herunterladen
+- NRW 2024: https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2024/start.aspx
+- NRW 2019: https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2019/start.aspx 
+

@@ -14,7 +14,9 @@ Um eine Hochrechnung zu rechnen schauen wir uns an
 Und wenn wir danach noch Zeit haben zeige ich euch
 - Wie die Hochrechnung am Wahltag abläuft
 - Wie man die Schwankungsbreite mittels Bootstrapping rechnet
+- Wie man Wahlkarten berücksichtigen kann
 - Wie man Hochrechnungen durch Clusteirng exakter macht
+- D'Hondt: wie die Stimmen auf Mandate umgerechnet werden
 
 ### Kontakt
 
