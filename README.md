@@ -3,9 +3,11 @@ Liebe WIPOLIs und alle anderen,
 dieses Repo enthält alle Files, die wir brauchen, um eine Hochrechnung für die Nationalratswahl 2024 zu rechnen.
 Außerdem alle Codes, die ich zur Vorbereitung der Daten und für weitere Erklärungen verwendet habe.
 
-### Masterexcel
+### Excel
 
-Dieses Excel enthält alles, was ihr für den Workshop selbst am PC haben müsst: `data/master.xlsx`
+Dieses Excel enthält alles, was ihr für den Workshop selbst am PC haben müsst: `data/master.xlsx`.
+
+Außerdem müsst ihr das "Datenanlyse Add-in" in Excel aktivieren.
 
 ### Plan
 
