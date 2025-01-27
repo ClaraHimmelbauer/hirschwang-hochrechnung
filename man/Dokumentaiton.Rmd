@@ -43,5 +43,6 @@ Die Berechnung passiert in `analysis/prep_import.R` und das Ergebnis ist `data/i
 
 ## Testhochrechnung
 
-1. Daten zusammenkopieren
-2. Ausgezählte Gemeinden filtern/danach sortieren
+1. Nichtwähler berechnen
+2. Daten zusammenkopieren
+3. Ausgezählte Gemeinden filtern/danach sortieren
