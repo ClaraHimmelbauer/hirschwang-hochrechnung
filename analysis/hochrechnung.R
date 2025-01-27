@@ -90,15 +90,25 @@ round(results[1:6] / sum(results[1:6]) * 100, 2)
 # Schwankungsbreite -------------------------------------------------------------------------------
 # bootstrapping: datensatz erstellen durch ziehen mit zurücklegen
 # MSE = (1/n) * Σ(actual – prediction)2
+# die schwankungsbreite ist irgendwie zu gering. nochmals nachschauen wie ich das gemacht hab
+# außerdem ist das nur das von den Urnenstimmen und die wahlkarten sind nicht dabei
 
 sub <- df[df$ausg == 1, ]
+out <- c()
 
-for(i in 1:100){
+n <- 100
+for(i in 1:n){
   
   sample <- sample(1:nrow(sub), nrow(sub), replace = T)
   dfx <- sub[sample, ]
   
-  pred_x <- pred_schwankungsbreite(dfx, "fp")
-  mse <- (1/nrow(dfx)) * sum((dfx$pred_fp/dfx$wber24*100 - pred_x/dfx$wber24*100) ^ 2)
+  modellist <- hr_modelle(dfx)
+  dfx <- hr_pred(dfx, modellist)
+  
+  fp <- sum(df$pred_fp) / sum(df$wber24)
+  out <- c(out, fp)
 }
 
+sd(out*100)
+
+# 
