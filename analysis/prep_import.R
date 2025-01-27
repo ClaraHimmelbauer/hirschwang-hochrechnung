@@ -5,7 +5,7 @@
 rm(list = ls()); gc()
 
 # packages
-packages = c("tidyverse", "readxl")
+packages = c("tidyverse", "readxl", "sf")
 sapply(packages, library, character.only = T)
 
 # source functions
@@ -21,6 +21,8 @@ sapply(files.sources, source, encoding = "utf-8")
 # data --------------------------------------------------------------------------------------------
 
 gem <- read_xlsx("data/prep_nrw24.xlsx", sheet = "gemeinden")
+gemshp <- st_read("data/gemeinden_simple.geojson")
+blshp  <- st_read("data/bundeslaender_simple.geojson")
 
 # wrangling ---------------------------------------------------------------------------------------
 
@@ -49,3 +51,19 @@ View(df)
 # export ------------------------------------------------------------------------------------------
 
 write.csv2(df, "data/in_results-filtered.csv", row.names = F)
+
+# plot: welche Gemeinden sind schon ausgezählt ----------------------------------------------------
+
+gemshp <- left_join(gemshp, df, by = "gkz")
+gemshp$ausgezaehlt <- ifelse(is.na(gemshp$abg), "nein", "ja")
+
+ggplot(gemshp) +
+  geom_sf(aes(fill = ausgezaehlt), color = "black") +
+  geom_sf(data = blshp, color = "black", lwd = 2, fill = NA) +
+  scale_fill_manual(values = c("#a10b0b", "white"),
+                    name = "Ausgezählt") +
+  theme_void() +
+  labs(title = "Ausgezählte Gemeinden") +
+  theme(legend.position = c(0.15, 0.75),
+        plot.title = element_blank())
+
