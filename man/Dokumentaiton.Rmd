@@ -33,4 +33,5 @@ Dieses File dokumentiert die Arbeitsschritte der Datenaufbereitung.
     - 61061 Straß in Steiermark - GKZ geändert von 61058
     - 70370 Matrei am Brenner - Zusammenlegung von 70327 Matrei am Brenner, 70330 Mühlbachl, 70341 Pfons
 - Absolute Stimmen pro Gemeinde (Gebietsstand 2024), Bezirk, Wahlkarten
-- Sonstige Zusammenfassen
+- Sonstige Zusammenfassen: so = jetzt + kpö ü wandl + bzö + bier + cpö + gilt + slp
+
