@@ -67,6 +67,8 @@ Möglichkeiten damit umzugehen sind:
 
 ## Clustering
 
+Intuition dahinter: in nicht allen Gemeinden ist
+
 ## D'Hondtsches Verfahren
 
 Das D'Hondsche Verfahren nach Höchstzahlenschema wird im Excel `analysis/d'hondt.xlsx` gerechnet. Im `data/master.xlsx` findet sich auch ein entsprechendes Tabellenblatt, um es dann gemeinsam zu rechnen.
