@@ -44,8 +44,18 @@ Die Berechnung passiert in `analysis/prep_import.R` und das Ergebnis ist `data/i
 ## Testhochrechnung
 
 1. Nichtwähler berechnen
-2. Daten zusammenkopieren
-3. Ausgezählte Gemeinden filtern/danach sortieren
+2. Daten zusammenkopieren (oder 1. udn 2. in umgekehrter Reihenfolge)
+3. Ausgezählte Gemeinden filtern/danach sortieren und Daten in ein extra Tabellenblatt kopieren
+4. Regressionen rechnen. Das Datenanlyse Add-In muss aktiviert sein. Dazu siehe `man/excel-datenanalyse-aktivieren.docx` 
+5. Nach jeder Regression die Koeffizienten in ein extra Tabellenblatt kopieren, oder direkt extra ins prognose-Tabellenblatt.
+6. Prognose-Tabellenblatt erstellen:
+    - alle Daten rüberkopieren
+    - Nach GKZ sortieren (weils schöner ausschaut und mich nicht triggert)
+    - Spalten für Prognose vorsehen
+    - Daten nach unten schieben und in die frei gewordenen Zeilen über der jeweiligen Partei die Koeffizienten einfügen
+7. Prognose rechnen: lineare Gleichung
+8. Prognose korrigieren: Keine Werte unter 0, Ausgezählte mit echten Zahlen, Summe der Stimmen = Wahlberechtigte
+9. Gesamtergebnis berechnen
 
 ## Schwankungsbreite
 

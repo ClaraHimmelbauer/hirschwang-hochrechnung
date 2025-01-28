@@ -7,7 +7,7 @@ Außerdem alle Codes, die ich zur Vorbereitung der Daten und für weitere Erklä
 
 Dieses Excel enthält alles, was ihr für den Workshop selbst am PC haben müsst: `data/master.xlsx`.
 
-Außerdem müsst ihr das "Datenanlyse Add-in" in Excel aktivieren.
+Außerdem müsst ihr das "Datenanlyse Add-in" in Excel aktivieren. Eine Anleitung wie das geht gibts in `man/excel-datenanalyse-aktivieren.docx`.
 
 ### Plan
 
