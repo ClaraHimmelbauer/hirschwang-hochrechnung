@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Dieses File dokumentiert die Arbeitsschritte der Datenaufbereitung.
+Dieses File dokumentiert alle Arbeitsschritte und sonstige Inputs.
 
 ## Wahldaten und deren Aufbereitung
 
@@ -46,3 +46,55 @@ Die Berechnung passiert in `analysis/prep_import.R` und das Ergebnis ist `data/i
 1. Nichtwähler berechnen
 2. Daten zusammenkopieren
 3. Ausgezählte Gemeinden filtern/danach sortieren
+
+## Schwankungsbreite
+
+Die Schwankungsbreite wird mittels Bootstrapping berechnet. Das funktioniert hier leider noch nicht. Da muss ich noch nachschauen wie wir das früher genau gemacht haben.
+Außerdem beinhaltet die Schwankungsbreite nur jene der Urnenstimmen. Wie schätzt man die Schwankungsbreite der Briefwahlstimmen? Gute Frage, wir haben einfach immer +xy gesagt.
+
+## Briefwahl berücksichtigen
+
+*Die Wahlkarte muss spätestens am Wahltag (29. September 2024), 17.00 Uhr, bei der zuständigen Bezirkswahlbehörde einlangen oder bis zu diesem Zeitpunkt in einem Wahllokal des Stimmbezirks der Bezirkswahlbehörde während der Öffnungszeiten des Wahllokals oder bei einer Bezirkswahlbehörde abgegeben worden sein.* https://www.bmi.gv.at/412/Briefwahl.aspx. 
+
+Beim Berücksichtigen der Briefwahl bei Hochrechnungen gibt es zwei Schwierigkeiten.
+- Wahlkarten werden auf Bezirksebene ausgezählt
+- Briefwählerinnen wählen strukturell anders als die Urnenwähler: Mehr grün, weniger blau.
+Hinzu kommt, dass immer mehr Leute per Briefwahl wählen und die strukturellen Unterschiede zwischen Urnenwählerinnen und Biefwählerinnen tendenziell größer werden.
+
+Möglichkeiten damit umzugehen sind:
+- Holzhammermethode: Sich anschauen wie die Briefwahlstimmen bei den letzten Wahlen von den Urnenstimmen abgewichen sind. In Erfahrung birngen, wie viele Wahlkarten beantragt wurden. Im Gesamtergebnis bei manchen Parteien was wegnehmen und bei anderen dazugeben.
+- Wahlkarten der Vergleichswahl (in dem Fall NRW 2019) versuchen auf Gemeindeebene umzurechnen und somit in die Hochrechnung miteinzubeziehen. Wir haben das mittels Odds-Ratios gemacht. Der sagt uns zum Beispiel in etwa pro Gemeinde wie wahrscheinlich es ist, dass eine Person "grün" gewählt hat wenn sie eine Wahlkarte beantragt hat.
+
+## Clustering
+
+## D'Hondtsches Verfahren
+
+Das D'Hondsche Verfahren nach Höchstzahlenschema wird im Excel `analysis/d'hondt.xlsx` gerechnet. Im `data/master.xlsx` findet sich auch ein entsprechendes Tabellenblatt, um es dann gemeinsam zu rechnen.
+
+Insgesamt wollen wir 183 Sitze im Nationalrat vergeben, davon
+- 57 FPÖ
+- 51 ÖVP
+- 41 SPÖ
+- 18 NEOS
+- 16 Grüne
+
+Die Berechnung funktioniert folgendermaßen
+1. Die Parteienstimmen werden nebeinander geschrieben (alle, nicht nur die Urnenstimmen). Parteien unter der 4%-Hürde werden dabei nicht berücksichtigt.
+2. Diese Stimmen werden fortlaufend durch 1, 2, 3, ... geteilt. Die entstehenden Zahlen nennt man Vergleichszahlen
+3. Alle Vergleichszahlen untereinander aufschreiben. Im Excel kann man dafür den Befehl `ZUSPALTE` oder auf Englisch `TOCOL` verwenden.
+4. Wir sortieren diese Zahlen. Im Excel kann man den Befehl `SORTIEREN` verwenden.
+5. Wir suchen die 183. größte Zahl.
+6. Die Anzahl der Mandate pro Partei ist nun die Häufigkeit, mit der in den Vergleichszahlen einer Partei eine Zahl welche größer gleich der 183. Zahl ist. Für die NRW 2024 liegt diese Zahl zum Beispiel bei 24.710. In den Vergleichszahlen der FPÖ kommen 57 Zahlen vor, welche größer oder gleich 24.710 sind. Damit hat die FPÖ 57 Mandate.
+
+## Ablauf am Wahlabend
+
+Am Wahlabend muss es schnell gehen, Fernsehsender wollen die Ergebnisse vor ihrer Konkurrenz möglichst schnell nach Wahlschluss veröffentlichen. Das Programm muss also nicht nur die Hochrechnung rechnen, sondern auch:
+1. die Daten automatisiert von den Seiten der Wahlbehörden runterladen. Für bundesweite Wahlen können das sein:
+    a. Gemeindeergebnisse für fast alle Gemeinden
+    b. Sprengelergebnisse für Wien
+    c. sprengelergebnisse für Graz
+2. Das Format aller dieser Daten ist unterschiedlich, sie müssen vereinheitlicht werden
+3. Die Hochrechnung für alle Gebiete/Cluster separat rechnen
+4. Die Mandatsverteilung berechnen
+5. Checks einbauen, falls mit den Daten etwas nicht passt, zu wenige Daten in einem Cluster vorhanden sind, unplausible Ergebnisse entstehen etc...
+6. die Daten nach Freigabe an eine API schicken. Auf diese greift dann die veröffentlichte Stelle zu und speist die Daten automatisch in ihre Grafik ein

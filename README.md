@@ -22,6 +22,7 @@ Und wenn wir danach noch Zeit haben zeige ich euch
 - Wie man Wahlkarten berücksichtigen kann
 - Wie man Hochrechnungen durch Clusteirng exakter macht
 - D'Hondt: wie die Stimmen auf Mandate umgerechnet werden
+- Ablauf am Wahlabend
 
 ### Dokumentation
 

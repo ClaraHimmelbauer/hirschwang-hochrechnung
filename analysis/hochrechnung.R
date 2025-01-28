@@ -105,10 +105,8 @@ for(i in 1:n){
   modellist <- hr_modelle(dfx)
   dfx <- hr_pred(dfx, modellist)
   
-  fp <- sum(df$pred_fp) / sum(df$wber24)
-  out <- c(out, fp)
+  mse <- (1/nrow(dfx)) * (sum(((dfx$pred_fp - dfx$fp24))^2))
+  
+  out <- c(out, mse)
 }
 
-sd(out*100)
-
-# 
