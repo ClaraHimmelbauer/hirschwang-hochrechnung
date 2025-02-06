@@ -3,11 +3,14 @@ Liebe WIPOLIs und alle anderen,
 dieses Repo enthält alle Files, die wir brauchen, um eine Hochrechnung für die Nationalratswahl 2024 zu rechnen.
 Außerdem alle Codes, die ich zur Vorbereitung der Daten und für weitere Erklärungen verwendet habe.
 
-### Excel
+### Voraussetzungen
 
-Dieses Excel enthält alles, was ihr für den Workshop selbst am PC haben müsst: `data/master.xlsx`.
+Für die Teilnahme am Workshop solltet ihr in der Schule schon einmal gehört haben, was eine lineare Funktion ist (y = kx + d).
+Ihr müsst einen Laptop dabei haben, auf dem Excel installiert ist - wir werden die Hochrechnung gemeinsam in Excel rechnen.
 
-Außerdem müsst ihr das "Datenanlyse Add-in" in Excel aktivieren. Eine Anleitung wie das geht gibts in `man/excel-datenanalyse-aktivieren.docx`.
+Außerdem solltet ihr folgende 2 Sachen in Excel vorbereiten:
+- Vorbereitete Daten herunterladen. Die findet ihr hier: `data/master.xlsx`.
+- "Datenanlyse Add-in" in Excel aktivieren. Eine Anleitung wie das geht gibts in `man/excel-datenanalyse-aktivieren.docx`.
 
 ### Plan
 
@@ -20,8 +23,8 @@ Um eine Hochrechnung zu rechnen schauen wir uns an
 Und wenn wir danach noch Zeit haben zeige ich euch
 - D'Hondt: wie die Stimmen auf Mandate umgerechnet werden
 - Wie man die Schwankungsbreite mittels Bootstrapping rechnet
-- Wie man Wahlkarten berücksichtigen kann
 - Wie man Hochrechnungen durch Clusteirng exakter macht
+- Berücksichtigung von Wahlkarten
 - Ablauf am Wahlabend
 
 ### Dokumentation
