@@ -59,8 +59,7 @@ Die Berechnung passiert in `analysis/prep_import.R` und das Ergebnis ist `data/i
 
 ## Schwankungsbreite
 
-Die Schwankungsbreite wird mittels Bootstrapping berechnet. Das funktioniert hier leider noch nicht. Da muss ich noch nachschauen wie wir das früher genau gemacht haben.
-Außerdem beinhaltet die Schwankungsbreite nur jene der Urnenstimmen. Wie schätzt man die Schwankungsbreite der Briefwahlstimmen? Gute Frage, wir haben einfach immer +xy gesagt.
+Die Schwankungsbreite für die Urnenstimmen wird mittels Bootstrapping berechnet. Damit zieht man aus dem ursprünglichen Datensatz ein neues sample mit zurücklegen. Danach schaut man sich an, wie sehr die einzelnen Schätzer voneinenander abweichen und die Standardabweichung ist schließlich die Schwankungsbreite.
 
 ## Briefwahl berücksichtigen
 
