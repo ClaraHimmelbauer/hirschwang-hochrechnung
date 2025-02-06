@@ -1,0 +1,85 @@
+[
+  {
+    "_id": "63d6c1b8ba1e09001da0e481",
+    "typ": "Hochrechnung",
+    "wahl_id": "LTW_NOE_2023",
+    "uhrzeit": "19:57",
+    "gebiete": [
+      {
+        "gebiet": "Niederösterreich",
+        "gueltig": true,
+        "schwankungsbreite": "0,0%",
+        "auszaehlungsgrad": "100,0%",
+        "wahl": [
+          {
+            "partei": "ÖVP",
+            "prozent_num": 39.9,
+            "prozent_str": "39,9%",
+            "mandate": 23,
+            "prozent_num_alt": 49.6,
+            "prozent_str_alt": "49,6%",
+            "mandate_alt": 29,
+            "regierung": 4,
+            "regierung_alt": 6
+          },
+          {
+            "partei": "SPÖ",
+            "prozent_num": 20.7,
+            "prozent_str": "20,7%",
+            "mandate": 12,
+            "prozent_num_alt": 23.9,
+            "prozent_str_alt": "23,9%",
+            "mandate_alt": 13,
+            "regierung": 2,
+            "regierung_alt": 2
+          },
+          {
+            "partei": "FPÖ",
+            "prozent_num": 24.2,
+            "prozent_str": "24,2%",
+            "mandate": 14,
+            "prozent_num_alt": 14.8,
+            "prozent_str_alt": "14,8%",
+            "mandate_alt": 8,
+            "regierung": 3,
+            "regierung_alt": 1
+          },
+          {
+            "partei": "GRÜNE",
+            "prozent_num": 7.6,
+            "prozent_str": "7,6%",
+            "mandate": 4,
+            "prozent_num_alt": 6.4,
+            "prozent_str_alt": "6,4%",
+            "mandate_alt": 3,
+            "regierung": 0,
+            "regierung_alt": 0
+          },
+          {
+            "partei": "NEOS",
+            "prozent_num": 6.7,
+            "prozent_str": "6,7%",
+            "mandate": 3,
+            "prozent_num_alt": 5.2,
+            "prozent_str_alt": "5,2%",
+            "mandate_alt": 3,
+            "regierung": 0,
+            "regierung_alt": 0
+          },
+          {
+            "partei": "Sonstige",
+            "prozent_num": 1,
+            "prozent_str": "1,0%",
+            "mandate": 0,
+            "prozent_num_alt": 0.1,
+            "prozent_str_alt": "0,1%",
+            "mandate_alt": 0,
+            "regierung": 0,
+            "regierung_alt": 0
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-01-29T18:58:00.161Z"
+  }
+]

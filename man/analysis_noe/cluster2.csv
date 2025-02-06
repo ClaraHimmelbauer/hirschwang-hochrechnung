@@ -1,0 +1,574 @@
+gkz;nuts;gem;cluster2;cluster3
+30101;AT124;Krems an der Donau;1;1
+30201;AT123;St. Pölten;1;1
+30301;AT121;Waidhofen an der Ybbs;2;2
+30401;AT122;Wiener Neustadt;1;1
+30501;AT121;Allhartsberg;2;2
+30502;AT121;Amstetten;1;1
+30503;AT121;Ardagger;2;2
+30504;AT121;Aschbach-Markt;2;2
+30506;AT121;Behamberg;2;2
+30507;AT121;Biberbach;2;2
+30508;AT121;Ennsdorf;1;1
+30509;AT121;Ernsthofen;1;1
+30510;AT121;Ertl;2;2
+30511;AT121;Euratsfeld;2;2
+30512;AT121;Ferschnitz;2;2
+30514;AT121;Haag;2;2
+30515;AT121;Haidershofen;2;2
+30516;AT121;Hollenstein an der Ybbs;2;2
+30517;AT121;Kematen an der Ybbs;1;1
+30520;AT121;Neuhofen an der Ybbs;2;2
+30521;AT121;Neustadtl an der Donau;2;2
+30522;AT121;Oed-Oehling;2;2
+30524;AT121;Opponitz;2;2
+30526;AT121;St. Georgen am Reith;2;2
+30527;AT121;St. Georgen am Ybbsfelde;2;2
+30529;AT121;St. Pantaleon-Erla;1;1
+30530;AT121;St. Peter in der Au;2;2
+30531;AT121;St. Valentin;1;1
+30532;AT121;Seitenstetten;2;2
+30533;AT121;Sonntagberg;1;1
+30534;AT121;Strengberg;2;2
+30536;AT121;Viehdorf;2;2
+30538;AT121;Wallsee-Sindelburg;2;2
+30539;AT121;Weistrach;2;2
+30541;AT121;Winklarn;2;2
+30542;AT121;Wolfsbach;2;2
+30543;AT121;Ybbsitz;2;2
+30544;AT121;Zeillern;2;2
+30601;AT127;Alland;2;3
+30602;AT122;Altenmarkt an der Triesting;2;2
+30603;AT127;Bad Vöslau;1;1
+30604;AT127;Baden;2;3
+30605;AT122;Berndorf;1;1
+30607;AT127;Ebreichsdorf;1;1
+30608;AT122;Enzesfeld-Lindabrunn;1;1
+30609;AT122;Furth an der Triesting;2;2
+30612;AT127;Günselsdorf;1;1
+30613;AT127;Heiligenkreuz;2;3
+30614;AT122;Hernstein;2;2
+30615;AT122;Hirtenberg;1;1
+30616;AT127;Klausen-Leopoldsdorf;2;3
+30618;AT127;Kottingbrunn;1;1
+30620;AT127;Leobersdorf;1;1
+30621;AT127;Mitterndorf an der Fischa;1;1
+30623;AT127;Oberwaltersdorf;1;1
+30625;AT127;Pfaffstätten;2;3
+30626;AT127;Pottendorf;1;1
+30627;AT122;Pottenstein;1;1
+30629;AT127;Reisenberg;1;1
+30631;AT127;Schönau an der Triesting;1;1
+30633;AT127;Seibersdorf;2;3
+30635;AT127;Sooß;2;3
+30636;AT127;Tattendorf;2;3
+30637;AT127;Teesdorf;1;1
+30639;AT127;Traiskirchen;1;1
+30641;AT127;Trumau;1;1
+30645;AT122;Weissenbach an der Triesting;1;1
+30646;AT127;Blumau-Neurißhof;1;1
+30701;AT127;Au am Leithaberge;2;3
+30702;AT127;Bad Deutsch-Altenburg;1;1
+30703;AT127;Berg;2;3
+30704;AT127;Bruck an der Leitha;1;1
+30706;AT127;Enzersdorf an der Fischa;1;1
+30708;AT127;Göttlesbrunn-Arbesthal;2;3
+30709;AT127;Götzendorf an der Leitha;1;1
+30710;AT127;Hainburg a.d. Donau;2;3
+30711;AT127;Haslau-Maria Ellend;1;1
+30712;AT127;Höflein;2;3
+30713;AT127;Hof am Leithaberge;2;3
+30715;AT127;Hundsheim;1;1
+30716;AT127;Mannersdorf am Leithagebirge;1;1
+30718;AT127;Petronell-Carnuntum;1;1
+30719;AT127;Prellenkirchen;2;3
+30721;AT127;Rohrau;2;3
+30722;AT127;Scharndorf;2;3
+30724;AT127;Sommerein;1;1
+30726;AT127;Trautmannsdorf an der Leitha;1;1
+30728;AT127;Wolfsthal;2;3
+30729;AT127;Ebergassing;1;1
+30730;AT127;Fischamend;1;1
+30731;AT127;Gramatneusiedl;1;1
+30732;AT127;Himberg;1;1
+30733;AT127;Klein-Neusiedl;1;1
+30734;AT127;Lanzendorf;1;1
+30735;AT127;Leopoldsdorf;1;1
+30736;AT127;Maria-Lanzendorf;1;1
+30737;AT127;Moosbrunn;1;1
+30738;AT127;Rauchenwarth;2;3
+30739;AT127;Schwadorf;1;1
+30740;AT127;Schwechat;1;1
+30741;AT127;Zwölfaxing;1;1
+30801;AT126;Aderklaa;2;3
+30802;AT126;Andlersdorf;2;3
+30803;AT126;Angern an der March;1;1
+30804;AT126;Auersthal;2;3
+30805;AT126;Bad Pirawarth;2;3
+30808;AT126;Deutsch-Wagram;1;1
+30810;AT125;Drösing;1;1
+30811;AT125;Dürnkrut;1;1
+30812;AT126;Ebenthal;2;3
+30813;AT126;Eckartsau;2;3
+30814;AT126;Engelhartstetten;2;3
+30817;AT126;Gänserndorf;1;1
+30819;AT126;Glinzendorf;2;3
+30821;AT126;Groß-Enzersdorf;1;1
+30822;AT126;Großhofen;2;3
+30824;AT126;Groß-Schweinbarth;2;3
+30825;AT126;Haringsee;2;3
+30826;AT125;Hauskirchen;2;2
+30827;AT125;Hohenau an der March;1;1
+30828;AT126;Hohenruppersdorf;2;3
+30829;AT125;Jedenspeigen;2;2
+30830;AT126;Lassee;1;1
+30831;AT126;Leopoldsdorf im Marchfeld;1;1
+30834;AT126;Mannsdorf an der Donau;2;3
+30835;AT126;Marchegg;1;1
+30836;AT126;Markgrafneusiedl;1;1
+30838;AT126;Matzen-Raggendorf;1;1
+30841;AT125;Neusiedl an der Zaya;2;2
+30842;AT126;Obersiebenbrunn;1;1
+30844;AT126;Orth an der Donau;2;3
+30845;AT125;Palterndorf-Dobermannsdorf;2;2
+30846;AT126;Parbasdorf;2;3
+30848;AT126;Prottes;1;1
+30849;AT126;Raasdorf;2;3
+30850;AT125;Ringelsdorf-Niederabsdorf;1;1
+30852;AT126;Schönkirchen-Reyersdorf;2;3
+30854;AT126;Spannberg;2;3
+30856;AT126;Strasshof an der Nordbahn;1;1
+30857;AT125;Sulz im Weinviertel;2;2
+30858;AT126;Untersiebenbrunn;1;1
+30859;AT126;Velm-Götzendorf;2;3
+30860;AT126;Weikendorf;1;1
+30863;AT125;Zistersdorf;2;2
+30865;AT126;Weiden an der March;2;3
+30902;AT124;Amaliendorf-Aalfang;1;1
+30903;AT124;Brand-Nagelberg;1;1
+30904;AT124;Eggern;2;2
+30906;AT124;Eisgarn;2;2
+30908;AT124;Gmünd;1;1
+30909;AT124;Großdietmanns;2;2
+30910;AT124;Bad Großpertholz;2;2
+30912;AT124;Großschönau;2;2
+30913;AT124;Moorbad Harbach;2;2
+30915;AT124;Haugschlag;2;2
+30916;AT124;Heidenreichstein;1;1
+30917;AT124;Hirschbach;1;1
+30920;AT124;Hoheneich;1;1
+30921;AT124;Kirchberg am Walde;2;2
+30925;AT124;Litschau;2;2
+30929;AT124;Reingers;2;2
+30932;AT124;St. Martin;2;2
+30935;AT124;Schrems;1;1
+30939;AT124;Unserfrau-Altweitra;2;2
+30940;AT124;Waldenstein;2;2
+30942;AT124;Weitra;2;2
+31001;AT125;Alberndorf im Pulkautal;2;2
+31008;AT125;Göllersdorf;2;2
+31009;AT125;Grabern;2;2
+31014;AT125;Guntersdorf;2;2
+31015;AT125;Hadres;2;2
+31016;AT125;Hardegg;2;2
+31018;AT125;Haugsdorf;2;2
+31019;AT125;Heldenberg;2;2
+31021;AT125;Hohenwarth-Mühlbach a.M.;2;2
+31022;AT125;Hollabrunn;2;2
+31025;AT125;Mailberg;1;1
+31026;AT125;Maissau;2;2
+31028;AT125;Nappersdorf-Kammersdorf;2;2
+31033;AT125;Pernersdorf;2;2
+31035;AT125;Pulkau;2;2
+31036;AT125;Ravelsbach;2;2
+31037;AT125;Retz;2;2
+31038;AT125;Retzbach;2;2
+31041;AT125;Schrattenthal;2;2
+31042;AT125;Seefeld-Kadolz;1;1
+31043;AT125;Sitzendorf an der Schmida;2;2
+31051;AT125;Wullersdorf;2;2
+31052;AT125;Zellerndorf;2;2
+31053;AT125;Ziersdorf;2;2
+31101;AT124;Altenburg;2;2
+31102;AT124;Brunn an der Wild;2;2
+31103;AT124;Burgschleinitz-Kühnring;2;2
+31104;AT124;Drosendorf-Zissersdorf;2;2
+31105;AT124;Eggenburg;2;2
+31106;AT124;Gars am Kamp;2;2
+31107;AT124;Geras;2;2
+31109;AT124;Horn;2;2
+31110;AT124;Irnfritz-Messern;2;2
+31111;AT124;Japons;2;2
+31113;AT124;Langau;2;2
+31114;AT124;Meiseldorf;2;2
+31117;AT124;Pernegg;2;2
+31119;AT124;Röhrenbach;2;2
+31120;AT124;Röschitz;2;2
+31121;AT124;Rosenburg-Mold;2;2
+31123;AT124;St. Bernhard-Frauenhofen;2;2
+31124;AT124;Sigmundsherberg;1;1
+31129;AT124;Weitersfeld;2;2
+31130;AT124;Straning-Grafenberg;2;2
+31201;AT126;Bisamberg;2;3
+31202;AT126;Enzersfeld im Weinviertel;2;3
+31203;AT126;Ernstbrunn;2;3
+31204;AT126;Großmugl;2;3
+31205;AT126;Großrußbach;2;3
+31206;AT126;Hagenbrunn;2;3
+31207;AT126;Harmannsdorf;2;3
+31208;AT126;Hausleiten;2;3
+31213;AT126;Korneuburg;2;3
+31214;AT126;Langenzersdorf;2;3
+31215;AT126;Leitzersdorf;2;3
+31216;AT126;Leobendorf;2;3
+31224;AT126;Rußbach;2;3
+31226;AT126;Sierndorf;2;3
+31227;AT126;Spillern;1;1
+31228;AT126;Stetteldorf am Wagram;2;3
+31229;AT126;Stetten;1;1
+31230;AT126;Stockerau;1;1
+31234;AT126;Niederhollabrunn;2;3
+31235;AT126;Gerasdorf bei Wien;1;1
+31301;AT124;Aggsbach;1;1
+31302;AT124;Albrechtsberg an der Großen Krems;2;2
+31303;AT124;Bergern im Dunkelsteinerwald;2;2
+31304;AT124;Dürnstein;2;2
+31308;AT124;Grafenegg;2;2
+31309;AT124;Furth bei Göttweig;2;2
+31310;AT124;Gedersdorf;2;2
+31311;AT124;Gföhl;2;2
+31315;AT124;Hadersdorf-Kammern;2;2
+31319;AT124;Jaidhof;2;2
+31321;AT124;Krumau am Kamp;2;2
+31322;AT124;Langenlois;2;2
+31323;AT124;Lengenfeld;2;2
+31324;AT124;Lichtenau im Waldviertel;2;2
+31326;AT124;Maria Laach am Jauerling;2;2
+31327;AT124;Mautern an der Donau;2;2
+31330;AT124;Mühldorf;2;2
+31333;AT124;Paudorf;1;1
+31336;AT124;Rastenfeld;2;2
+31337;AT124;Rohrendorf bei Krems;2;2
+31338;AT124;Rossatz-Arnsdorf;2;2
+31340;AT124;St. Leonhard am Hornerwald;2;2
+31343;AT124;Senftenberg;2;2
+31344;AT124;Spitz;2;2
+31346;AT124;Straß im Straßertale;2;2
+31347;AT124;Stratzing;2;2
+31350;AT124;Weinzierl am Walde;2;2
+31351;AT124;Weißenkirchen in der Wachau;2;2
+31355;AT124;Schönberg am Kamp;2;2
+31356;AT124;Droß;2;2
+31401;AT122;Annaberg;2;2
+31402;AT122;Eschenau;2;2
+31403;AT122;Hainfeld;1;1
+31404;AT122;Hohenberg;1;1
+31405;AT122;Kaumberg;2;2
+31406;AT122;Kleinzell;2;2
+31407;AT122;Lilienfeld;1;1
+31408;AT122;Mitterbach am Erlaufsee;2;2
+31409;AT122;Ramsau;2;2
+31410;AT122;Rohrbach an der Gölsen;2;2
+31411;AT122;St. Aegyd am Neuwalde;1;1
+31412;AT122;St. Veit an der Gölsen;1;1
+31413;AT122;Traisen;1;1
+31414;AT122;Türnitz;2;2
+31502;AT121;Artstetten-Pöbring;2;2
+31503;AT121;Bergland;2;2
+31504;AT121;Bischofstetten;2;2
+31505;AT121;Blindenmarkt;2;2
+31506;AT121;Dorfstetten;2;2
+31507;AT121;Dunkelsteinerwald;2;2
+31508;AT121;Erlauf;2;2
+31509;AT121;Golling an der Erlauf;1;1
+31511;AT121;Hofamt Priel;1;1
+31513;AT121;Hürm;2;2
+31514;AT121;Kilb;2;2
+31515;AT121;Kirnberg an der Mank;2;2
+31516;AT121;Klein-Pöchlarn;1;1
+31517;AT121;Krummnußbaum;1;1
+31519;AT121;Leiben;1;1
+31520;AT121;Loosdorf;1;1
+31521;AT121;Mank;2;2
+31522;AT121;Marbach an der Donau;1;1
+31523;AT121;Maria Taferl;2;2
+31524;AT121;Melk;2;2
+31525;AT121;Münichreith-Laimbach;2;2
+31527;AT121;Neumarkt an der Ybbs;1;1
+31528;AT121;Nöchling;2;2
+31530;AT121;Persenbeug-Gottsdorf;1;1
+31531;AT121;Petzenkirchen;1;1
+31533;AT121;Pöchlarn;1;1
+31534;AT121;Pöggstall;2;2
+31535;AT121;Raxendorf;2;2
+31537;AT121;Ruprechtshofen;2;2
+31539;AT121;St. Leonhard am Forst;2;2
+31540;AT121;St. Martin-Karlsbach;2;2
+31541;AT121;St. Oswald;2;2
+31542;AT121;Schönbühel-Aggsbach;2;2
+31543;AT121;Schollach;2;2
+31546;AT121;Weiten;2;2
+31549;AT121;Ybbs an der Donau;1;1
+31550;AT121;Zelking-Matzleinsdorf;2;2
+31551;AT121;Texingtal;2;2
+31552;AT121;Yspertal;2;2
+31553;AT121;Emmersdorf an der Donau;2;2
+31601;AT125;Altlichtenwarth;2;2
+31603;AT125;Asparn an der Zaya;2;2
+31604;AT125;Bernhardsthal;2;2
+31605;AT126;Bockfließ;2;3
+31606;AT125;Drasenhofen;2;2
+31608;AT125;Falkenstein;2;2
+31609;AT125;Fallbach;2;2
+31611;AT125;Gaubitsch;2;2
+31612;AT125;Gaweinstal;2;2
+31613;AT125;Gnadendorf;2;2
+31614;AT126;Großebersdorf;2;3
+31615;AT126;Großengersdorf;2;3
+31616;AT125;Großharras;2;2
+31617;AT125;Großkrut;2;2
+31620;AT125;Hausbrunn;1;1
+31621;AT125;Herrnbaumgarten;2;2
+31622;AT126;Hochleithen;2;3
+31627;AT126;Kreuttal;2;3
+31628;AT126;Kreuzstetten;1;1
+31629;AT125;Laa an der Thaya;1;1
+31630;AT125;Ladendorf;2;2
+31633;AT125;Mistelbach;2;2
+31634;AT125;Neudorf im Weinviertel;2;2
+31636;AT125;Niederleis;2;2
+31642;AT126;Pillichsdorf;2;3
+31644;AT125;Poysdorf;2;2
+31645;AT125;Rabensburg;1;1
+31646;AT125;Schrattenberg;2;2
+31649;AT125;Staatz;2;2
+31650;AT125;Stronsdorf;2;2
+31651;AT126;Ulrichskirchen-Schleinbach;2;3
+31652;AT125;Unterstinkenbrunn;2;2
+31653;AT125;Wildendürnbach;2;2
+31654;AT125;Wilfersdorf;2;2
+31655;AT126;Wolkersdorf im Weinviertel;2;3
+31658;AT125;Ottenthal;2;2
+31701;AT127;Achau;1;1
+31702;AT127;Biedermannsdorf;2;3
+31703;AT127;Breitenfurt bei Wien;2;3
+31704;AT127;Brunn am Gebirge;2;3
+31706;AT127;Gaaden;2;3
+31707;AT127;Gießhübl;2;3
+31709;AT127;Gumpoldskirchen;2;3
+31710;AT127;Guntramsdorf;1;1
+31711;AT127;Hennersdorf;1;1
+31712;AT127;Hinterbrühl;2;3
+31713;AT127;Kaltenleutgeben;2;3
+31714;AT127;Laab im Walde;2;3
+31715;AT127;Laxenburg;2;3
+31716;AT127;Maria Enzersdorf;2;3
+31717;AT127;Mödling;2;3
+31718;AT127;Münchendorf;1;1
+31719;AT127;Perchtoldsdorf;2;3
+31723;AT127;Vösendorf;1;1
+31725;AT127;Wiener Neudorf;1;1
+31726;AT127;Wienerwald;2;3
+31801;AT122;Altendorf;2;2
+31802;AT122;Aspang-Markt;2;2
+31803;AT122;Aspangberg-St. Peter;2;2
+31804;AT122;Breitenau;1;1
+31805;AT122;Breitenstein;2;2
+31806;AT122;Buchbach;1;1
+31807;AT122;Edlitz;2;2
+31808;AT122;Enzenreith;1;1
+31809;AT122;Feistritz am Wechsel;2;2
+31810;AT122;Gloggnitz;1;1
+31811;AT122;Grafenbach-St. Valentin;1;1
+31812;AT122;Grimmenstein;2;2
+31813;AT122;Grünbach am Schneeberg;1;1
+31814;AT122;Kirchberg am Wechsel;2;2
+31815;AT122;Mönichkirchen;2;2
+31817;AT122;Natschbach-Loipersbach;2;2
+31818;AT122;Neunkirchen;1;1
+31820;AT122;Otterthal;2;2
+31821;AT122;Payerbach;2;2
+31823;AT122;Pitten;1;1
+31825;AT122;Prigglitz;2;2
+31826;AT122;Puchberg am Schneeberg;1;1
+31827;AT122;Raach am Hochgebirge;2;2
+31829;AT122;Reichenau an der Rax;1;1
+31830;AT122;St. Corona am Wechsel;2;2
+31831;AT122;St. Egyden am Steinfeld;2;2
+31832;AT122;Scheiblingkirchen-Thernberg;2;2
+31833;AT122;Schottwien;2;2
+31834;AT122;Schrattenbach;2;2
+31835;AT122;Schwarzau am Steinfeld;1;1
+31836;AT122;Schwarzau im Gebirge;1;1
+31837;AT122;Seebenstein;1;1
+31838;AT122;Semmering;2;2
+31839;AT122;Ternitz;1;1
+31840;AT122;Thomasberg;2;2
+31841;AT122;Trattenbach;2;2
+31842;AT122;Bürg-Vöstenhof;2;2
+31843;AT122;Warth;2;2
+31844;AT122;Wartmannstetten;2;2
+31845;AT122;Willendorf;2;2
+31846;AT122;Wimpassing im Schwarzatale;1;1
+31847;AT122;Würflach;1;1
+31848;AT122;Zöbern;2;2
+31849;AT122;Höflein an der Hohen Wand;1;1
+31901;AT123;Altlengbach;2;2
+31902;AT123;Asperhofen;2;2
+31903;AT123;Böheimkirchen;2;2
+31904;AT123;Brand-Laaben;2;2
+31905;AT123;Eichgraben;2;2
+31906;AT123;Frankenfels;2;2
+31907;AT123;Gerersdorf;2;2
+31909;AT123;Hofstetten-Grünau;2;2
+31910;AT123;Hafnerbach;2;2
+31911;AT123;Haunoldstein;2;2
+31912;AT123;Herzogenburg;1;1
+31913;AT123;Inzersdorf-Getzersdorf;2;2
+31915;AT123;Kapelln;2;2
+31916;AT123;Karlstetten;2;2
+31917;AT123;Kasten bei Böheimkirchen;2;2
+31918;AT123;Kirchberg an der Pielach;2;2
+31919;AT123;Kirchstetten;2;2
+31920;AT123;Loich;2;2
+31921;AT123;Maria Anzbach;2;2
+31922;AT123;Markersdorf-Haindorf;2;2
+31923;AT123;Michelbach;2;2
+31925;AT123;Neidling;2;2
+31926;AT123;Neulengbach;2;2
+31927;AT123;Neustift-Innermanzing;2;2
+31928;AT123;Nußdorf ob der Traisen;2;2
+31929;AT123;Ober-Grafendorf;1;1
+31930;AT123;Obritzberg-Rust;2;2
+31932;AT123;Prinzersdorf;1;1
+31934;AT123;Pyhra;2;2
+31935;AT123;Rabenstein an der Pielach;2;2
+31938;AT123;St. Margarethen an der Sierning;2;2
+31939;AT123;Schwarzenbach an der Pielach;2;2
+31940;AT123;Statzendorf;1;1
+31941;AT123;Stössing;2;2
+31943;AT123;Traismauer;1;1
+31945;AT123;Weinburg;1;1
+31946;AT123;Perschling;2;2
+31947;AT123;Wilhelmsburg;1;1
+31948;AT123;Wölbling;1;1
+31949;AT126;Gablitz;2;3
+31950;AT126;Mauerbach;2;3
+31951;AT126;Pressbaum;2;3
+31952;AT126;Purkersdorf;2;3
+31953;AT126;Tullnerbach;2;3
+31954;AT126;Wolfsgraben;2;3
+32001;AT121;Gaming;1;1
+32002;AT121;Göstling an der Ybbs;2;2
+32003;AT121;Gresten;2;2
+32004;AT121;Gresten-Land;2;2
+32005;AT121;Lunz am See;2;2
+32006;AT121;Oberndorf an der Melk;2;2
+32007;AT121;Puchenstuben;1;1
+32008;AT121;Purgstall an der Erlauf;2;2
+32009;AT121;Randegg;2;2
+32010;AT121;Reinsberg;2;2
+32011;AT121;St. Anton an der Jeßnitz;2;2
+32012;AT121;St. Georgen an der Leys;2;2
+32013;AT121;Scheibbs;2;2
+32014;AT121;Steinakirchen am Forst;2;2
+32015;AT121;Wang;2;2
+32016;AT121;Wieselburg;1;1
+32017;AT121;Wieselburg-Land;2;2
+32018;AT121;Wolfpassing;2;2
+32101;AT126;Absdorf;2;3
+32104;AT126;Atzenbrugg;2;3
+32106;AT126;Fels am Wagram;2;3
+32107;AT126;Grafenwörth;2;3
+32109;AT126;Großriedenthal;2;3
+32110;AT126;Großweikersdorf;2;3
+32112;AT126;Judenau-Baumgarten;2;3
+32114;AT126;Kirchberg am Wagram;2;3
+32115;AT126;Königsbrunn am Wagram;2;3
+32116;AT126;Königstetten;2;3
+32119;AT126;Langenrohr;2;3
+32120;AT126;Michelhausen;2;3
+32131;AT126;Sieghartskirchen;2;3
+32132;AT126;Sitzenberg-Reidling;2;3
+32134;AT126;Tulbing;2;3
+32135;AT126;Tulln an der Donau;2;3
+32139;AT126;Würmla;2;3
+32140;AT126;Zeiselmauer-Wolfpassing;2;3
+32141;AT126;Zwentendorf an der Donau;1;1
+32142;AT126;St. Andrä-Wördern;2;3
+32143;AT126;Muckendorf-Wipfing;2;3
+32144;AT126;Klosterneuburg;2;3
+32202;AT124;Dietmanns;1;1
+32203;AT124;Dobersberg;2;2
+32206;AT124;Gastern;2;2
+32207;AT124;Groß-Siegharts;1;1
+32209;AT124;Karlstein an der Thaya;2;2
+32210;AT124;Kautzen;2;2
+32212;AT124;Ludweis-Aigen;2;2
+32214;AT124;Pfaffenschlag bei Waidhofen a.d.Thaya;2;2
+32216;AT124;Raabs an der Thaya;2;2
+32217;AT124;Thaya;2;2
+32219;AT124;Vitis;2;2
+32220;AT124;Waidhofen an der Thaya;2;2
+32221;AT124;Waidhofen an der Thaya-Land;2;2
+32222;AT124;Waldkirchen an der Thaya;2;2
+32223;AT124;Windigsteig;2;2
+32301;AT122;Bad Fischau-Brunn;2;2
+32302;AT122;Bad Schönau;2;2
+32304;AT122;Ebenfurth;1;1
+32305;AT122;Eggendorf;1;1
+32306;AT122;Bad Erlach;2;2
+32307;AT122;Felixdorf;1;1
+32308;AT122;Gutenstein;2;2
+32309;AT122;Hochneukirchen-Gschaidt;2;2
+32310;AT122;Hochwolkersdorf;2;2
+32311;AT122;Hohe Wand;2;2
+32312;AT122;Hollenthon;2;2
+32313;AT122;Katzelsdorf;2;2
+32314;AT122;Kirchschlag in der Buckligen Welt;2;2
+32315;AT122;Krumbach;2;2
+32316;AT122;Lanzenkirchen;1;1
+32317;AT122;Lichtenegg;2;2
+32318;AT122;Lichtenwörth;1;1
+32319;AT122;Markt Piesting;2;2
+32320;AT122;Matzendorf-Hölles;2;2
+32321;AT122;Miesenbach;2;2
+32322;AT122;Muggendorf;2;2
+32323;AT122;Pernitz;1;1
+32324;AT122;Rohr im Gebirge;2;2
+32325;AT122;Bromberg;2;2
+32326;AT122;Schwarzenbach;1;1
+32327;AT122;Sollenau;1;1
+32330;AT122;Theresienfeld;1;1
+32331;AT122;Waidmannsfeld;1;1
+32332;AT122;Waldegg;1;1
+32333;AT122;Walpersbach;2;2
+32334;AT122;Weikersdorf am Steinfelde;2;2
+32335;AT122;Wiesmath;2;2
+32336;AT122;Winzendorf-Muthmannsdorf;2;2
+32337;AT122;Wöllersdorf-Steinabrückl;1;1
+32338;AT122;Zillingdorf;1;1
+32501;AT124;Allentsteig;2;2
+32502;AT124;Arbesbach;2;2
+32503;AT124;Bärnkopf;1;1
+32504;AT124;Echsenbach;2;2
+32505;AT124;Göpfritz an der Wild;2;2
+32506;AT124;Grafenschlag;2;2
+32508;AT124;Groß Gerungs;2;2
+32509;AT124;Großgöttfritz;2;2
+32511;AT124;Gutenbrunn;1;1
+32514;AT124;Kirchschlag;2;2
+32515;AT124;Kottes-Purk;2;2
+32516;AT124;Langschlag;2;2
+32517;AT124;Martinsberg;2;2
+32518;AT124;Ottenschlag;2;2
+32519;AT124;Altmelon;2;2
+32520;AT124;Pölla;2;2
+32521;AT124;Rappottenstein;2;2
+32522;AT124;Sallingberg;2;2
+32523;AT124;Schönbach;2;2
+32524;AT124;Schwarzenau;2;2
+32525;AT124;Schweiggers;2;2
+32528;AT124;Bad Traunstein;2;2
+32529;AT124;Waldhausen;2;2
+32530;AT124;Zwettl-Niederösterreich;2;2
