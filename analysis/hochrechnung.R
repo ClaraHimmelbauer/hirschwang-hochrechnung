@@ -92,22 +92,31 @@ round(results[1:6] / sum(results[1:6]) * 100, 2)
 # MSE = (1/n) * Σ(actual – prediction)2
 # Schwankungsbreite nur für die Urnenstimmen!
 
+# outputvektor bestimmen
 out <- c()
 
+# anzahl iterationen
 n <- 100
+
+# loopen
 for(i in 1:n){
   
+  # sample neu ziehen mit zurücklegen
   sample <- sample(1:nrow(df), nrow(df), replace = T)
   dfx <- df[sample, ]
   
+  # hochrechnung mit gesampelten daten nochmals rechnen
   modellist <- hr_modelle(dfx)
   dfx <- hr_pred(dfx, modellist)
   
+  # fp-ergebnis
   bootstrap_fp <- sum(dfx$pred_fp) / sum(dfx[, pred_names[1:6]])
   
+  # out
   out <- c(out, bootstrap_fp)
 }
 
+# abweichung vom mean, mean squared error und dessen schwankungsbreite
 e <- (out - mean(out))*100
 mse <- as.numeric(t(e) %*% e) / n
 sb <- mse / mean(out*100) * 100
