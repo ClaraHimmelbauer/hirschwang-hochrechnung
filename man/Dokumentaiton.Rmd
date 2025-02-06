@@ -76,7 +76,9 @@ Möglichkeiten damit umzugehen sind:
 
 ## Clustering
 
-Intuition dahinter: in nicht allen Gemeinden ist
+Intuition dahinter: in nicht allen Gemeinden sind die Wählerströme gleich. Win Landgemeinden sind Wählerbewegungen strukturell anders als in Städten, weil auch die politische Kultur und soziale Normen ganz anders sind. Wenn man ein lineares Modell für alle Gemeinden rechnet, nimmt man aber an, dass Wählerübergange überall gleich sind.
+Um dem Rechnung zu tragen fasst man Gemeinden zu "Clustern" zusammen und rechnet dann die Hochrechnung separat für diese verschiedenen Cluster. Dadurch sollte sie exakter werden (sofern in jedem Cluster genügend Gemeinden vorhanden sind).
+Arten zu Clustern gibt es viele. Was wir machen: Gemeinden mit ähnlichen Wahlergebnissen bei der Nationalratswahl 2019 clustern. Hier in 2 Cluster, weil ab 3 sind in einem Cluster zu wenige Fallzahlen.
 
 ## D'Hondtsches Verfahren
 
